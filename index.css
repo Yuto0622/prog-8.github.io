@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header-logo{
+ float: left;
+ padding: 0 400px 0 250px;
+ 
+}
+.header-logo  img {
+  width: 100px;
+  padding: 5px;
+}
+
+
+.header-list {
+  
+  padding: 15px;
+}
+
+ .header-list li {
+  float: left;
+  padding-left: 40px;
+  list-style: none;
+
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  width: 1350px;
+  height: 50px;
+  background-color: white;
+
+}
+
+.top-wrapper {
+  height: 600px;
+  background-color: black;
+  background-image: url(english-concept-young-woman-on-600w-492729481.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+}
+
+
+ footer {
+  height: 60px;
+  width: 100%;
+  background-color: blue;
+  
+}
+
+.footer-logo {
+  float: left;
+
+}
+
+.lesson-wrapper {
+  height: 400px;
+}
+
+ h2 {
+  text-align: center;
+  
+}
+
+.border-bottom {
+  border-bottom: solid 2px black;
+}
+
+.lesson-wrapper h3 {
+  
+  margin-left: 540px;
+}
+
+.lesson-wrapper p {
+  width: 400px;
+}
+
+
+.lesson-wrapper img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-left: 410px;
+  float: left;
+}
+
+.lesson-wrapper  p{
+  margin-left: 540px;
+}
+
+.lesson {
+  float: left;
+  padding-left: 40px;
+  width: 30%;
+}
+
+
+
+.lesson img {
+  width: 270px;
+}
+
+.message-wrapper {
+  height: 600px;
+  
+}
+
+.lesson p {
+  width: 80%;
+}
+
+.footer {
+  height: 20px;
+}
+
+.footer h6 {
+  text-align: center;
+}
+
+.login-modal-wrapper {
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  
+    display: none;
+  }
+ 
+  
+.text-contents {
+  display: none;
+}
+
+.text-active {
+  display: block;
+}
